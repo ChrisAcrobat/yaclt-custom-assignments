@@ -7,8 +7,9 @@
 		"assignments": [{
 			"id": "34b00586-c7b1-4e7a-a2e5-e9cd1d11ca57",
 			"title": "Assignment 1",
-			"content": [
-				"// Example\ntrue"
+			"segments": [
+				"// Example",
+				"true"
 			],
 			"answer": true
 		}]
@@ -19,8 +20,9 @@
 		"assignments": [{
 			"id": "7a5a0378-9b8e-4697-b2ad-0ea4e14596b4",
 			"title": "Assignment 2",
-			"content": [
-				"// Example\ntrue"
+			"segments": [
+				"// Example",
+				"true"
 			],
 			"answer": true
 		}]
