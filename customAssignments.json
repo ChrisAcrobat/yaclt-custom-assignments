@@ -8,11 +8,11 @@
 			"id": "34b00586-c7b1-4e7a-a2e5-e9cd1d11ca57",
 			"title": "49",
 			"segments": [
-				"/*\n * a) Hur stor är volymen?\n * b) Hur stor är begränsningsarean?\n */\nlet sida = 5\nlet svarA\nlet svarB",
+				"/*\n * En kub där varje sida är 5 cm.\n * a) Hur stor är volymen?\n * b) Hur stor är begränsningsarean?\n */\nlet sida = 5\nlet svarA\nlet svarB",
 				"",
-				"[svarA, svarB]"
+				"[`${svarA} cm³`, `${svarB} cm²`]"
 				],
-			"answer": [125, 150]
+			"answer": ["125 cm³", "150 cm²"]
 		}]
 	},{
 		"name": "Label 2",
