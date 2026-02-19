@@ -6,26 +6,45 @@
 		"prerequisites": [],
 		"assignments": [{
 			"id": "34b00586-c7b1-4e7a-a2e5-e9cd1d11ca57",
-			"title": "49",
+			"title": "Uppgift 49 (sida 121)",
 			"segments": [
-				"/*\n * En kub där varje sida är 5 cm.\n * a) Hur stor är volymen?\n * b) Hur stor är begränsningsarean?\n */\nlet sida = 5\nlet svarA\nlet svarB",
+				"/*\n * \n * En kub där varje sida är 5 cm.\n * a) Hur stor är volymen?\n * b) Hur stor är begränsningsarean?\n */\nlet sida = 5\nlet svarA\nlet svarB",
 				"",
 				"[`${svarA} cm³`, `${svarB} cm²`]"
 				],
 			"answer": ["125 cm³", "150 cm²"]
 		}]
 	},{
-		"name": "Label 2",
+		"name": "Träna geometri",
 		"id": "ed8376b2-3597-4b1b-9b2e-f90351a45fcf",
 		"prerequisites": ["014b43a4-db5a-41c3-b9a8-1469cafcb010"],
 		"assignments": [{
 			"id": "7a5a0378-9b8e-4697-b2ad-0ea4e14596b4",
-			"title": "Assignment 2",
+			"title": "Uppgift 171 (sida 147)",
 			"segments": [
-				"// Example",
-				"true"
-			],
-			"answer": true
+				"/*\n * Låda har formen av en kub.\n * a) Hur stor volym har lådan? Avrunda till hela kubikdecimeter.\n * b) Hur stor är begränsningsarean? Avrunda till tiotal kvadratdecimeter.\n */\nconst sida = 4.3\nlet svarA\nlet svarB",
+				"",
+				"`Svar A: ${svarA} dm³\\nSvarB: ${svarB} dm²`"
+				],
+			"answer": "Svar A: 80 dm³\nSvarB: 110 dm²"
+		},{
+			"id": "2ee5046f-a353-4607-aa96-3bd841d2e9e1",
+			"title": "Uppgift 172 (sida 147)",
+			"segments": [
+				"/*\n * a) Vem eller vilka har rätt?\n * b) Hur stor är bokens volym? Avrunda till tiotal kubikcentimeter.\n * c) Hur stor är begränsningsarean? Avrunda till hundratal kvadratcentimeter.\n * d) Hur stor är begränsningsarean utryckt i kvadratdecimeter?\n */\nconst längd = 19.3 // cm\nconst höjd = 26.5 // cm\nconst tjock = 1.5 // cm\nlet svarA\nlet svarB\nlet svarC\nlet svarD",
+				"",
+				"`Svar A: ${svarA} har rätt.\\nSvarB: ${svarB} cm³.\\nSvarC: ${svarC} cm².\\nSvarD: ${svarD} dm².`"
+				],
+			"answer": "Svar A: Albin och Mehmet har rätt.\\nSvarB: 780 cm³.\\nSvarC: 1200 cm².\\nSvarD: 12 dm²."
+		},{
+			"id": "ffde3630-604e-4462-acc1-0eca5b5c8dde",
+			"title": "Uppgift 173 (sida 147)",
+			"segments": [
+				"/*\n * Ett rätblock av trä har sidorna 2 dm, 3 dm och 12 dm.\n * a) Hur stor volym har rätblocket?\n * b) Lina ska måla rätblocket runt om.\n *    Hur mycket färg går åt om 1 cl färg räcker till 5 dm²? Svara i hela centiliter.\n */\nconst längd = 12 // dm\nconst höjd = 3 // dm\nconst tjock = 2 // dm\nlet svarA\nlet svarB",
+				"",
+				"`Svar A: ${svarA} dm³.\\nSvarB: ${svarB} cl.`"
+				],
+			"answer": "Svar A: 72 dm³.\\nSvarB: 27 cl."
 		}]
 	}]
 }]
