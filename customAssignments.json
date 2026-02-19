@@ -35,7 +35,7 @@
 				"",
 				";\n`SvarA: ${svarA} har rätt.\\nSvarB: ${svarB} cm³.\\nSvarC: ${svarC} cm².\\nSvarD: ${svarD} dm².`"
 				],
-			"answer": "SvarA: Albin och Mehmet har rätt.\\nSvarB: 780 cm³.\\nSvarC: 1200 cm².\\nSvarD: 12 dm²."
+			"answer": "SvarA: Albin och Mehmet har rätt.\nSvarB: 780 cm³.\nSvarC: 1200 cm².\nSvarD: 12 dm²."
 		},{
 			"id": "ffde3630-604e-4462-acc1-0eca5b5c8dde",
 			"title": "Uppgift 173 (sida 147)",
@@ -44,7 +44,7 @@
 				"",
 				";\n`SvarA: ${svarA} dm³.\\nSvarB: ${svarB} cl.`"
 				],
-			"answer": "SvarA: 72 dm³.\\nSvarB: 27 cl."
+			"answer": "SvarA: 72 dm³.\nSvarB: 27 cl."
 		}]
 	}]
 }]
