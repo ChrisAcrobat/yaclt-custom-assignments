@@ -22,7 +22,7 @@
 			"id": "7a5a0378-9b8e-4697-b2ad-0ea4e14596b4",
 			"title": "Uppgift 171 (sida 147)",
 			"segments": [
-				"/*\n * Låda har formen av en kub.\n * a) Hur stor volym har lådan? Avrunda till hela kubikdecimeter.\n * b) Hur stor är begränsningsarean? Avrunda till tiotal kvadratdecimeter.\n */\nconst sida = 4.3\nlet svarA\nlet svarB",
+				"/*\n * Låda har formen av en kub.\n * a) Hur stor volym har lådan? Avrunda till hela kubikdecimeter.\n * b) Hur stor är begränsningsarean? Avrunda till tiotal kvadratdecimeter.\n */\nconst sida = 4.3 // dm\nlet svarA\nlet svarB",
 				"",
 				"`SvarA: ${svarA} dm³\\nSvarB: ${svarB} dm²`"
 				],
