@@ -31,7 +31,7 @@
 			"id": "2ee5046f-a353-4607-aa96-3bd841d2e9e1",
 			"title": "Uppgift 172 (sida 147)",
 			"segments": [
-				"/*\n * a) Vem eller vilka har rätt?\n * b) Hur stor är bokens volym? Avrunda till tiotal kubikcentimeter.\n * c) Hur stor är begränsningsarean? Avrunda till hundratal kvadratcentimeter.\n * d) Hur stor är begränsningsarean utryckt i kvadratdecimeter?\n */\nconst längd = 19.3 // cm\nconst höjd = 26.5 // cm\nconst tjock = 1.5 // cm\nlet svarA\nlet svarB\nlet svarC\nlet svarD",
+				"/*\n * a) Vem eller vilka har rätt?\n * b) Hur stor är bokens volym? Avrunda till tiotal kubikcentimeter.\n * c) Hur stor är begränsningsarean? Avrunda till hundratal kvadratcentimeter.\n * d) Hur stor är begränsningsarean utryckt i kvadratdecimeter?\n */\nconst längd = 19.5 // cm\nconst höjd = 26.5 // cm\nconst tjock = 1.5 // cm\nlet svarA\nlet svarB\nlet svarC\nlet svarD",
 				"",
 				";\n`SvarA: ${svarA} har rätt.\\nSvarB: ${svarB} cm³.\\nSvarC: ${svarC} cm².\\nSvarD: ${svarD} dm².`"
 				],
