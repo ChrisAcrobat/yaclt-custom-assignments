@@ -8,7 +8,7 @@
 			"id": "34b00586-c7b1-4e7a-a2e5-e9cd1d11ca57",
 			"title": "Uppgift 49 (sida 121)",
 			"segments": [
-				"/*\n * \n * En kub där varje sida är 5 cm.\n * a) Hur stor är volymen?\n * b) Hur stor är begränsningsarean?\n */\nlet sida = 5\nlet svarA\nlet svarB",
+				"/*\n * En kub där varje sida är 5 cm.\n * a) Hur stor är volymen?\n * b) Hur stor är begränsningsarean?\n */\nlet sida = 5\nlet svarA\nlet svarB",
 				"",
 				"[`${svarA} cm³`, `${svarB} cm²`]"
 				],
