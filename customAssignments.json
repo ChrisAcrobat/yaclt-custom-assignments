@@ -55,7 +55,7 @@
 				],
 			"answer": "15 cm³."
 		},{
-			"id": "99d8d275-9d91-4759-899c-a51b3ccfc0e5",
+			"id": "24066632-599f-4028-ac98-720f7a3c515c",
 			"title": "Uppgift 175 (sida 147)",
 			"segments": [
 				"/*\n * Bilden visar en förpackning.\n * a) Hur stor är volymen?\n *    Avrunda till tiotal kubikcentimeter.\n * b) Hur många milliliter juice rymmer förpackningen?\n * c) Hur många deciliter juice är det?\n */\nlet SvarA\nlet SvarB\nlet SvarC",
