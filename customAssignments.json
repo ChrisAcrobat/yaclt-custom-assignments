@@ -24,7 +24,7 @@
 			"segments": [
 				"/*\n * Låda har formen av en kub.\n * a) Hur stor volym har lådan? Avrunda till hela kubikdecimeter.\n * b) Hur stor är begränsningsarean? Avrunda till tiotal kvadratdecimeter.\n */\nconst sida = 4.3 // dm\nlet svarA\nlet svarB",
 				"",
-				";\n`SvarA: ${svarA} dm³\\nSvarB: ${svarB} dm²`"
+				";`SvarA: ${svarA} dm³\\nSvarB: ${svarB} dm²`"
 				],
 			"answer": "SvarA: 80 dm³\nSvarB: 110 dm²"
 		},{
@@ -33,7 +33,7 @@
 			"segments": [
 				"/*\n * a) Vem eller vilka har rätt?\n * b) Hur stor är bokens volym? Avrunda till tiotal kubikcentimeter.\n * c) Hur stor är begränsningsarean? Avrunda till hundratal kvadratcentimeter.\n * d) Hur stor är begränsningsarean utryckt i kvadratdecimeter?\n */\nconst längd = 19.5 // cm\nconst höjd = 26.5 // cm\nconst tjock = 1.5 // cm\nlet svarA\nlet svarB\nlet svarC\nlet svarD",
 				"",
-				";\n`SvarA: ${svarA} har rätt.\\nSvarB: ${svarB} cm³.\\nSvarC: ${svarC} cm².\\nSvarD: ${svarD} dm².`"
+				";`SvarA: ${svarA} har rätt.\\nSvarB: ${svarB} cm³.\\nSvarC: ${svarC} cm².\\nSvarD: ${svarD} dm².`"
 				],
 			"answer": "SvarA: Albin och Mehmet har rätt.\nSvarB: 780 cm³.\nSvarC: 1200 cm².\nSvarD: 12 dm²."
 		},{
@@ -42,9 +42,27 @@
 			"segments": [
 				"/*\n * Ett rätblock av trä har sidorna 2 dm, 3 dm och 12 dm.\n * a) Hur stor volym har rätblocket?\n * b) Lina ska måla rätblocket runt om.\n *    Hur mycket färg går åt om 1 cl färg räcker till 5 dm²? Svara i hela centiliter.\n */\nconst längd = 12 // dm\nconst höjd = 3 // dm\nconst tjock = 2 // dm\nlet svarA\nlet svarB",
 				"",
-				";\n`SvarA: ${svarA} dm³.\\nSvarB: ${svarB} cl.`"
+				";`SvarA: ${svarA} dm³.\\nSvarB: ${svarB} cl.`"
 				],
 			"answer": "SvarA: 72 dm³.\nSvarB: 27 cl."
+		},{
+			"id": "99d8d275-9d91-4759-899c-a51b3ccfc0e5",
+			"title": "Uppgift 174 (sida 147)",
+			"segments": [
+				"/*\n * Hur stor volym har pyramiden?\n */\nconst bas = 3.2 // cm\nconst bredd = 3.2 // cm\nconst höjd = 4.5 // cm\nlet svar",
+				"",
+				";`${svar} cm³.`"
+				],
+			"answer": "15 cm³."
+		},{
+			"id": "99d8d275-9d91-4759-899c-a51b3ccfc0e5",
+			"title": "Uppgift 175 (sida 147)",
+			"segments": [
+				"/*\n * Bilden visar en förpackning.\n * a) Hur stor är volymen?\n *    Avrunda till tiotal kubikcentimeter.\n * b) Hur många milliliter juice rymmer förpackningen?\n * c) Hur många deciliter juice är det?\n */\nlet SvarA\nlet SvarB\nlet SvarC",
+				"",
+				";`${SvarA} cm³.\\n${SvarB} ml.\\n${SvarC} dl.`"
+				],
+			"answer": "300 cm³.\n300 ml.\n3 dl."
 		}]
 	}]
 }]
