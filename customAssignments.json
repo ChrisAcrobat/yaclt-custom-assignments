@@ -58,9 +58,9 @@
 			"id": "24066632-599f-4028-ac98-720f7a3c515c",
 			"title": "Uppgift 175 (sida 147)",
 			"segments": [
-				"/*\n * Bilden visar en förpackning.\n * a) Hur stor är volymen?\n *    Avrunda till tiotal kubikcentimeter.\n * b) Hur många milliliter juice rymmer förpackningen?\n * c) Hur många deciliter juice är det?\n */\nlet SvarA\nlet SvarB\nlet SvarC",
+				"/*\n * Bilden visar en förpackning.\n * a) Hur stor är volymen?\n *    Avrunda till tiotal kubikcentimeter.\n * b) Hur många milliliter juice rymmer förpackningen?\n * c) Hur många deciliter juice är det?\n */\nlet svarA\nlet svarB\nlet svarC",
 				"",
-				";`${SvarA} cm³.\\n${SvarB} ml.\\n${SvarC} dl.`"
+				";`${svarA} cm³.\\n${svarB} ml.\\n${svarC} dl.`"
 				],
 			"answer": "300 cm³.\n300 ml.\n3 dl."
 		}]
