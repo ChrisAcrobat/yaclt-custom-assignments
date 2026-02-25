@@ -8,13 +8,20 @@
 			"id": "34b00586-c7b1-4e7a-a2e5-e9cd1d11ca57",
 			"title": "Uppgift 49 (sida 121)",
 			"segments": [
-				"/*\n * En kub där varje sida är 5 cm.\n * a) Hur stor är volymen?\n * b) Hur stor är begränsningsarean?\n */\nlet sida = 5\nlet svarA\nlet svarB",
+				"/*\n * En kub där varje sida är 5 cm.\n * a) Hur stor är volymen?\n * b) Hur stor är begränsningsarean?\n */\nlet sida = parseFloat(prompt('sida')) // 5\nlet svarA\nlet svarB",
 				"",
 				"[`${svarA} cm³`, `${svarB} cm²`]"
-				],
-			"answer": ["125 cm³", "150 cm²"]
+			],
+			"inputs": [
+				["5"],
+				["6"]
+			],
+			"answers": [
+				["125 cm³", "150 cm²"],
+				["216 cm³", "216 cm²"]
+			]
 		}]
-	},{
+	}, {
 		"name": "Träna geometri",
 		"id": "ed8376b2-3597-4b1b-9b2e-f90351a45fcf",
 		"prerequisites": ["014b43a4-db5a-41c3-b9a8-1469cafcb010"],
@@ -22,47 +29,82 @@
 			"id": "7a5a0378-9b8e-4697-b2ad-0ea4e14596b4",
 			"title": "Uppgift 171 (sida 147)",
 			"segments": [
-				"/*\n * Låda har formen av en kub.\n * a) Hur stor volym har lådan? Avrunda till hela kubikdecimeter.\n * b) Hur stor är begränsningsarean? Avrunda till tiotal kvadratdecimeter.\n */\nconst sida = 4.3 // dm\nlet svarA\nlet svarB",
+				"/*\n * Låda har formen av en kub.\n * a) Hur stor volym har lådan? Avrunda till hela kubikdecimeter.\n * b) Hur stor är begränsningsarean? Avrunda till tiotal kvadratdecimeter.\n */\nconst sida = parseFloat(prompt('sida (dm)')) // 4.3\nlet svarA\nlet svarB",
 				"",
 				";`SvarA: ${svarA} dm³\\nSvarB: ${svarB} dm²`"
-				],
-			"answer": "SvarA: 80 dm³\nSvarB: 110 dm²"
-		},{
+			],
+			"inputs": [
+				["4.3"],
+				["5"]
+			],
+			"answers": [
+				"SvarA: 80 dm³\nSvarB: 110 dm²",
+				"SvarA: 125 dm³\nSvarB: 150 dm²"
+			]
+		}, {
 			"id": "2ee5046f-a353-4607-aa96-3bd841d2e9e1",
 			"title": "Uppgift 172 (sida 147)",
 			"segments": [
-				"/*\n * a) Vem eller vilka har rätt?\n * b) Hur stor är bokens volym? Avrunda till tiotal kubikcentimeter.\n * c) Hur stor är begränsningsarean? Avrunda till hundratal kvadratcentimeter.\n * d) Hur stor är begränsningsarean utryckt i kvadratdecimeter?\n */\nconst längd = 19.5 // cm\nconst höjd = 26.5 // cm\nconst tjock = 1.5 // cm\nlet svarA\nlet svarB\nlet svarC\nlet svarD",
+				"/*\n * a) Vem eller vilka har rätt?\n * b) Hur stor är bokens volym? Avrunda till tiotal kubikcentimeter.\n * c) Hur stor är begränsningsarean? Avrunda till hundratal kvadratcentimeter.\n * d) Hur stor är begränsningsarean utryckt i kvadratdecimeter?\n */\nconst längd = parseFloat(prompt('längd (cm)')) // 19.5\nconst höjd = parseFloat(prompt('höjd (cm)')) // 26.5\nconst tjock = parseFloat(prompt('tjock (cm)')) // 1.5\nlet svarA\nlet svarB\nlet svarC\nlet svarD",
 				"",
 				";`SvarA: ${svarA} har rätt.\\nSvarB: ${svarB} cm³.\\nSvarC: ${svarC} cm².\\nSvarD: ${svarD} dm².`"
-				],
-			"answer": "SvarA: Albin och Mehmet har rätt.\nSvarB: 780 cm³.\nSvarC: 1200 cm².\nSvarD: 12 dm²."
-		},{
+			],
+			"inputs": [
+				["19.5", "26.5", "1.5"],
+				["20", "30", "40"]
+			],
+			"answers": [
+				"SvarA: Albin och Mehmet har rätt.\nSvarB: 780 cm³.\nSvarC: 1200 cm².\nSvarD: 12 dm².",
+				"SvarA: Albin och Mehmet har rätt.\nSvarB: 24000 cm³.\nSvarC: 5200 cm².\nSvarD: 52 dm²."
+			]
+		}, {
 			"id": "ffde3630-604e-4462-acc1-0eca5b5c8dde",
 			"title": "Uppgift 173 (sida 147)",
 			"segments": [
-				"/*\n * Ett rätblock av trä har sidorna 2 dm, 3 dm och 12 dm.\n * a) Hur stor volym har rätblocket?\n * b) Lina ska måla rätblocket runt om.\n *    Hur mycket färg går åt om 1 cl färg räcker till 5 dm²? Svara i hela centiliter.\n */\nconst längd = 12 // dm\nconst höjd = 3 // dm\nconst tjock = 2 // dm\nlet svarA\nlet svarB",
+				"/*\n * Ett rätblock av trä har sidorna 2 dm, 3 dm och 12 dm.\n * a) Hur stor volym har rätblocket?\n * b) Lina ska måla rätblocket runt om.\n *    Hur mycket färg går åt om 1 cl färg räcker till 5 dm²? Svara i hela centiliter.\n */\nconst längd = parseFloat(prompt('längd (dm)')) // 12\nconst höjd = parseFloat(prompt('höjd (dm)')) // 3\nconst tjock = parseFloat(prompt('tjock (dm)')) // 2\nlet svarA\nlet svarB",
 				"",
 				";`SvarA: ${svarA} dm³.\\nSvarB: ${svarB} cl.`"
-				],
-			"answer": "SvarA: 72 dm³.\nSvarB: 27 cl."
-		},{
+			],
+			"inputs": [
+				["12", "3", "2"],
+				["6", "15", "10"]
+			],
+			"answers": [
+				"SvarA: 72 dm³.\nSvarB: 27 cl.",
+				"SvarA: 900 dm³.\nSvarB: 120 cl."
+			]
+		}, {
 			"id": "99d8d275-9d91-4759-899c-a51b3ccfc0e5",
 			"title": "Uppgift 174 (sida 147)",
 			"segments": [
-				"/*\n * Hur stor volym har pyramiden?\n */\nconst bas = 3.2 // cm\nconst bredd = 3.2 // cm\nconst höjd = 4.5 // cm\nlet svar",
+				"/*\n * Hur stor volym har pyramiden?\n */\nconst bas = parseFloat(prompt('bas (cm)')) // 3.2\nconst bredd = parseFloat(prompt('bredd (cm)')) // 3.2\nconst höjd = parseFloat(prompt('höjd (cm)')) // 4.5\nlet svar",
 				"",
 				";`${svar} cm³.`"
-				],
-			"answer": "15 cm³."
-		},{
+			],
+			"inputs": [
+				["3.2", "3.2", "4.5"],
+				["10", "20", "30"]
+			],
+			"answers": [
+				"15 cm³.",
+				"2000 cm³."
+			]
+		}, {
 			"id": "24066632-599f-4028-ac98-720f7a3c515c",
 			"title": "Uppgift 175 (sida 147)",
 			"segments": [
-				"/*\n * Bilden visar en förpackning.\n * a) Hur stor är volymen?\n *    Avrunda till tiotal kubikcentimeter.\n * b) Hur många milliliter juice rymmer förpackningen?\n * c) Hur många deciliter juice är det?\n */\nlet svarA\nlet svarB\nlet svarC",
+				"/*\n * Bilden visar en förpackning.\n * a) Hur stor är volymen?\n *    Avrunda till tiotal kubikcentimeter.\n * b) Hur många milliliter juice rymmer förpackningen?\n * c) Hur många deciliter juice är det?\n */\nconst värde1 = parseFloat(prompt()) // 3.2\nconst värde2 = parseFloat(prompt()) // 11.9\nconst värde3 = parseFloat(prompt()) // 13.7\nlet svarA\nlet svarB\nlet svarC",
 				"",
 				";`${svarA} cm³.\\n${svarB} ml.\\n${svarC} dl.`"
-				],
-			"answer": "300 cm³.\n300 ml.\n3 dl."
+			],
+			"inputs": [
+				["11.1", "11.9", "13.7"],
+				["40", "50", "60"]
+			],
+			"answers": [
+				"300 cm³.\n300 ml.\n3 dl.",
+				"20000 cm³.\n20000 ml.\n200 dl."
+			]
 		}]
 	}]
 }]
