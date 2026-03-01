@@ -106,5 +106,23 @@
 				"20000 cm³.\n20000 ml.\n200 dl."
 			]
 		}]
+	}, {
+		"name": "Läxa 11",
+		"id": "92441e40-6e2c-4670-983f-51821e48c6ae",
+		"prerequisites": ["0392b1cc-c0d5-40d4-aac9-fd70f7d5df43"],
+		"assignments": [{
+			"id": "933937dc-dc15-4236-9fda-b93d17c30066",
+			"title": "Uppgift 1 (sida 276)",
+			"segments": [
+				"/*\n * Skriv volyemerna i liter\n */\nlet svarA = parseFloat(prompt()) // 1.4 (dm³)\nlet svarB = parseFloat(prompt()) // 3 (dl)\nlet svarC = parseFloat(prompt()) // 400 (ml)\nlet svarD = parseFloat(prompt()) // 1 (m³)",
+				"svarA = svarA\nsvarB = svarB\nsvarC = svarC\nsvarD = svarD",
+				";`SvarA: ${svarA} liter\\nSvarB: ${svarB} liter\\nSvarC: ${svarC} liter\\nSvarD: ${svarD} liter`"
+			],
+			"inputs": [["1.4", "3", "400", "1"], ["1", "10", "100", "1000"]],
+			"answers": [
+				"SvarA: 1.4 liter\nSvarB: 0.3 liter\nSvarC: 0.4 liter\nSvarD: 1000 liter",
+				"SvarA: 1 liter\nSvarB: 1 liter\nSvarC: 0.1 liter\nSvarD: 1000000 liter"
+			]
+		}]
 	}]
 }]
