@@ -136,6 +136,19 @@
 				"SvarA: 18 dm³.\nSvarB: 18 liter.",
 				"SvarA: 1000 dm³.\nSvarB: 1000 liter."
 			]
+		}, {
+			"id": "a031d7fa-3d03-423e-b23f-099612343073",
+			"title": "Uppgift 3 (sida 276)",
+			"segments": [
+				"/*\n * I en kanna finns det 1,2 liter saft.\n * Till hur många glas räcker saften om glasen rymmer 300 ml?\n */\nlet värde1 = parseFloat(prompt()) // 1.2 (liter)\nlet värde2 = parseFloat(prompt()) // 300 (ml)\nlet svar",
+				"",
+				";`Svar: ${svar} stycken.`"
+			],
+			"inputs": [["1.2", "300"], ["6", "3"]],
+			"answers": [
+				"Svar: 4 stycken.",
+				"Svar: 2000 stycken."
+			]
 		}]
 	}]
 }]
