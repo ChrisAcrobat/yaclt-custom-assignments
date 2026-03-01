@@ -123,6 +123,19 @@
 				"SvarA: 1.4 liter\nSvarB: 0.3 liter\nSvarC: 0.4 liter\nSvarD: 1000 liter",
 				"SvarA: 1 liter\nSvarB: 1 liter\nSvarC: 0.1 liter\nSvarD: 1000000 liter"
 			]
+		}, {
+			"id": "72f780ac-2d44-4a3b-bc91-6b0ee4c7aa4c",
+			"title": "Uppgift 2 (sida 276)",
+			"segments": [
+				"/*\n * Hur stor volym har kartongen?\n */\nlet värde1 = parseFloat(prompt()) // 1.5 (dm)\nlet värde2 = parseFloat(prompt()) // 3 (dm)\nlet värde3 = parseFloat(prompt()) // 4 (dm)\nlet svarA\nlet svarB",
+				"",
+				";`SvarA: ${svarA} dm³.\\nSvarB: ${svarB} liter.`"
+			],
+			"inputs": [["1.5", "3", "4"], ["1", "10", "100"]],
+			"answers": [
+				"SvarA: 18 dm³.\nSvarB: 18 liter.",
+				"SvarA: 1000 dm³.\nSvarB: 1000 liter."
+			]
 		}]
 	}]
 }]
