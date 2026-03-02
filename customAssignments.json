@@ -179,6 +179,21 @@
 				"inputs": ["20"],
 				"answer": "Svar: 310 cm²."
 			}]
+		}, {
+			"id": "0dc446f0-eef4-4c4a-ad56-ce5de2663085",
+			"title": "Uppgift 8 (sida 276)",
+			"segments": [
+				"/*\n * Flugan Filip åkte karusell på en 45-varvsskiva. Han satt så långt ut som möjligt.\n * Hur lång sträcka fick Filip åka, om skivan roterade i tre minuter?\n * Avrunda till hela meter.\n */\nconst diameter = parseFloat(prompt()) // 17,5 (cm)\nconst minuter = parseFloat(prompt()) // 3 (minuter)\nlet svar",
+				"",
+				";`Svar: ${svar} meter.`"
+			],
+			"validation": [{
+				"inputs": ["17.5", "3"],
+				"answer": "Svar: 74 meter."
+			}, {
+				"inputs": ["20", "4"],
+				"answer": "Svar: 113 meter."
+			}]
 		}]
 	}]
 }]
