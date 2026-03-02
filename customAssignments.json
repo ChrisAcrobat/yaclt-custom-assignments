@@ -209,6 +209,21 @@
 				"inputs": ["2", "3", "4"],
 				"answer": "SvarA: 400 cl.\nSvarB: 1.5."
 			}]
+		}, {
+			"id": "01342e79-a922-49eb-9345-9c151594a063",
+			"title": "Uppgift 10 (sida 276) ⚠️ Problem med uträkning",
+			"segments": [
+				"/*\n * För ett tåg tar det ¾ minut att köra genom en tunnel som är 450 m lång.\n * Det tar 15 s för hela tåget att köra förbi en telefonstolpe.\n * Hur långt är tåget och vilken hastighet har det?\n */\nconst tunnel_längd = parseFloat(prompt()) // 450 (meter)\nconst tidIgenom = parseFloat(prompt()) // 3/4 (minuter)\nconst tidAttPaseraStolpe = parseFloat(prompt()) // 15 (sekunder)\nlet svarA // Tågets längd\nlet svarB // Tågets hastighet",
+				"",
+				";`SvarA: ${svarA} meter.\\nSvarB: ${svarB} m/s.`"
+			],
+			"validation": [{
+				"inputs": ["450", "0.75", "15"],
+				"answer": "SvarA: 225 meter.\nSvarB: 15 m/s."
+			}, {
+				"inputs": ["20", "10", "24"],
+				"answer": "SvarA: 400 meter.\nSvarB: 1.5 m/s."
+			}]
 		}]
 	}]
 }]
