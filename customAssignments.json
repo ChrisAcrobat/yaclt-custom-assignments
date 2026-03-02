@@ -34,10 +34,10 @@
 			],
 			"validation": [{
 				"inputs": ["4.3"],
-				"answer": ["80 dm³", "110 dm²"]
+				"answer": "80 dm³\n110 dm²"
 			}, {
 				"inputs": ["5"],
-				"answer": ["125 dm³", "150 dm²"]
+				"answer": "125 dm³\n150 dm²"
 			}]
 		}, {
 			"id": "2ee5046f-a353-4607-aa96-3bd841d2e9e1",
@@ -49,10 +49,10 @@
 			],
 			"validation": [{
 				"inputs": ["19.5", "26.5", "1.5"],
-				"answer": ["SvarA: Albin och Mehmet har rätt.\nSvarB: 780 cm³.\nSvarC: 1200 cm².\nSvarD: 12 dm²."]
+				"answer": "SvarA: Albin och Mehmet har rätt.\nSvarB: 780 cm³.\nSvarC: 1200 cm².\nSvarD: 12 dm²."
 			}, {
 				"inputs": ["20", "30", "40"],
-				"answer": ["SvarA: Albin och Mehmet har rätt.\nSvarB: 24000 cm³.\nSvarC: 5200 cm².\nSvarD: 52 dm²."]
+				"answer": "SvarA: Albin och Mehmet har rätt.\nSvarB: 24000 cm³.\nSvarC: 5200 cm².\nSvarD: 52 dm²."
 			}]
 		}, {
 			"id": "ffde3630-604e-4462-acc1-0eca5b5c8dde",
@@ -64,10 +64,10 @@
 			],
 			"validation": [{
 				"inputs": ["12", "3", "2"],
-				"answer": ["SvarA: 72 dm³.\nSvarB: 27 cl."]
+				"answer": "SvarA: 72 dm³.\nSvarB: 27 cl."
 			}, {
 				"inputs": ["6", "15", "10"],
-				"answer": ["SvarA: 900 dm³.\nSvarB: 120 cl."]
+				"answer": "SvarA: 900 dm³.\nSvarB: 120 cl."
 			}]
 		}, {
 			"id": "99d8d275-9d91-4759-899c-a51b3ccfc0e5",
@@ -79,10 +79,10 @@
 			],
 			"validation": [{
 				"inputs": ["3.2", "3.2", "4.5"],
-				"answer": ["15 cm³."]
+				"answer": "15 cm³."
 			}, {
 				"inputs": ["10", "20", "30"],
-				"answer": ["2000 cm³."]
+				"answer": "2000 cm³."
 			}]
 		}, {
 			"id": "24066632-599f-4028-ac98-720f7a3c515c",
@@ -94,10 +94,10 @@
 			],
 			"validation": [{
 				"inputs": ["11.1", "11.9", "13.7"],
-				"answer": ["300 cm³.\n300 ml.\n3 dl."]
+				"answer": "300 cm³.\n300 ml.\n3 dl."
 			}, {
 				"inputs": ["40", "50", "60"],
-				"answer": ["20000 cm³.\n20000 ml.\n200 dl."]
+				"answer": "20000 cm³.\n20000 ml.\n200 dl."
 			}]
 		}]
 	}, {
@@ -114,10 +114,10 @@
 			],
 			"validation": [{
 				"inputs": ["1.4", "3", "400", "1"],
-				"answer": ["SvarA: 1.4 liter\nSvarB: 0.3 liter\nSvarC: 0.4 liter\nSvarD: 1000 liter"]
+				"answer": "SvarA: 1.4 liter\nSvarB: 0.3 liter\nSvarC: 0.4 liter\nSvarD: 1000 liter"
 			}, {
 				"inputs": ["1", "10", "100", "1000"],
-				"answer": ["SvarA: 1 liter\nSvarB: 1 liter\nSvarC: 0.1 liter\nSvarD: 1000000 liter"]
+				"answer": "SvarA: 1 liter\nSvarB: 1 liter\nSvarC: 0.1 liter\nSvarD: 1000000 liter"
 			}]
 		}, {
 			"id": "72f780ac-2d44-4a3b-bc91-6b0ee4c7aa4c",
@@ -129,10 +129,10 @@
 			],
 			"validation": [{
 				"inputs": ["1.5", "3", "4"],
-				"answer": ["SvarA: 18 dm³.\nSvarB: 18 liter."]
+				"answer": "SvarA: 18 dm³.\nSvarB: 18 liter."
 			}, {
 				"inputs": ["1", "10", "100"],
-				"answer": ["SvarA: 1000 dm³.\nSvarB: 1000 liter."]
+				"answer": "SvarA: 1000 dm³.\nSvarB: 1000 liter."
 			}]
 		}, {
 			"id": "a031d7fa-3d03-423e-b23f-099612343073",
@@ -144,10 +144,10 @@
 			],
 			"validation": [{
 				"inputs": ["1.2", "300"],
-				"answer": ["Svar: 4 stycken."]
+				"answer": "Svar: 4 stycken."
 			}, {
 				"inputs": ["6", "3"],
-				"answer": ["Svar: 2000 stycken."]
+				"answer": "Svar: 2000 stycken."
 			}]
 		}]
 	}]
