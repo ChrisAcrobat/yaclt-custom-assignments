@@ -194,6 +194,21 @@
 				"inputs": ["20", "4"],
 				"answer": "Svar: 113 meter."
 			}]
+		}, {
+			"id": "ac94b6b9-3475-4bde-acbc-62461a21c740",
+			"title": "Uppgift 9 (sida 276)",
+			"segments": [
+				"/*\n * En flaska som rymmer ¾ liter är fyllda till ⅓ med saft.\n * Saften hälls över till en annan flaska som rymmer ⅜ liter.\n * a) Hur många centiliter rymmer den andra flaskan?\n * b) Hur stor andel av den andra flaskan blir fylld med saft?\n */\nconst flaska1_volym = parseFloat(prompt()) // 3/4 (liter)\nconst flaska1_fylldTill = parseFloat(prompt()) // 1/3\nconst flaska2_volym = parseFloat(prompt()) // 3/8 (liter)\nlet svarA\nlet svarB",
+				"",
+				";`SvarA: ${svarA} cl.\\nSvarB: ${svarB}.`"
+			],
+			"validation": [{
+				"inputs": ["0.75", "0.3333333333333333", "0.375"],
+				"answer": "SvarA: 37.5 cl.\nSvarB: 0.6666666666666666."
+			}, {
+				"inputs": ["2", "3", "4"],
+				"answer": "SvarA: 400 cl.\nSvarB: 1.5."
+			}]
 		}]
 	}]
 }]
