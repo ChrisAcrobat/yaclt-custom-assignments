@@ -149,6 +149,21 @@
 				"inputs": ["6", "3"],
 				"answer": "Svar: 2000 stycken."
 			}]
+		}, {
+			"id": "c08d0677-1b93-4774-baf5-dcaf122383e7",
+			"title": "Uppgift 5 (sida 276)",
+			"segments": [
+				"/*\n * Russin säljs ofta i förpackningar med 0,3 kg i varje.\n * En fabrik ska förpacka 45 kg russin.\n *\n * a) Med vilken beräkning räknar du ut hur många förpackningar det blir?\n * b) Hur många förpackningar blir det?\n */\nconst värde1 = parseFloat(prompt()) // 45\nconst värde2 = parseFloat(prompt()) // 0.3\nlet svarA // \"A\", \"B\", \"C\" eller \"D\"?\nlet svarB",
+				"",
+				";`SvarA: ${svarA}.\\nSvarB: ${svarB} st.`"
+			],
+			"validation": [{
+				"inputs": ["45", "0.3"],
+				"answer": "SvarA: A.\nSvarB: 150 st."
+			}, {
+				"inputs": ["2", "4"],
+				"answer": "SvarA: A.\nSvarB: 0.5 st."
+			}]
 		}]
 	}]
 }]
