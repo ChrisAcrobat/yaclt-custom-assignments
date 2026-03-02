@@ -168,7 +168,7 @@
 			"id": "3e8866f5-ee0b-45e3-b0c6-60a764e1180a",
 			"title": "Uppgift 7 (sida 276)",
 			"segments": [
-				"/*\n * Under andra halvan av 1900-talet var det vanligt att singlar\n * släpptes på så kallade 45-varvsskivor. Hur stor area har en sådan skiva?\n * Avrunda till tiotal kvadratcentimeter.\n *\n * a) Med vilken beräkning räknar du ut hur många förpackningar det blir?\n * b) Hur många förpackningar blir det?\n */\nconst diameter = parseFloat(prompt()) // 17,5\nlet svar",
+				"/*\n * Under andra halvan av 1900-talet var det vanligt att singlar\n * släpptes på så kallade 45-varvsskivor. Hur stor area har en sådan skiva?\n * Avrunda till tiotal kvadratcentimeter.\n */\nconst diameter = parseFloat(prompt()) // 17,5\nlet svar",
 				"",
 				";`Svar: ${svar} cm².`"
 			],
